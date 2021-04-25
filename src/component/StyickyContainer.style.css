@@ -1,0 +1,55 @@
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.footer {
+  font-size: 12px;
+  text-align: right;
+}
+
+.textareadiv {
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  font: medium -moz-fixed;
+  font: -webkit-small-control;
+  min-height: 120px;
+  overflow: auto;
+  padding: 2px;
+  resize: both;
+  width: 100%;
+  min-width: 200px;
+  text-align: left;
+  font-family: monospace;
+  padding: 8px;
+}
+
+.textareatitle {
+  -moz-appearance: textfield-multiline;
+  -webkit-appearance: textarea;
+  font: medium -moz-fixed;
+  font: -webkit-small-control;
+  overflow: auto;
+  width: 80%;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.textareadiv:focus, .textareatitle:focus {
+  outline: 0;
+}
+
+.body {
+  background: darkgrey;
+}
